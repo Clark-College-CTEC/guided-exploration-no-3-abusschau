@@ -26,8 +26,8 @@ for i in range(count):
         name_parts.append(
             possible_names[random.randint(0, len(possible_names)-1)])
         # This is going to take the name written and add it to the file and join new ones.
-        outputFile.write(f"{' '.join(name_parts)}\n")
-        # This is also going to print the names added.
-        print(f"{' '.join(name_parts)}")
+    outputFile.write(f"{' '.join(name_parts)}\n")
+    # This is also going to print the names added.
+    print(f"{' '.join(name_parts)}")
 # This will close the whole file that we made.
 outputFile.close()
